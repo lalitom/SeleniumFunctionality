@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Test1 is executed via Thread and Thread Id is 11]]>
+    </line>
+    <line>
+      <![CDATA[Test2 is executed via Thread and Thread Id is 11]]>
+    </line>
+    <line>
+      <![CDATA[Test1 is executed via Thread and Thread Id is 11]]>
+    </line>
+    <line>
+      <![CDATA[Test3 is executed via Thread and Thread Id is 11]]>
+    </line>
+    <line>
+      <![CDATA[Test1 is executed via Thread and Thread Id is 11]]>
+    </line>
+    <line>
+      <![CDATA[Test1 is executed via Thread and Thread Id is 11]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10311" started-at="2018-08-09T10:52:31Z" finished-at="2018-08-09T10:52:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10311" started-at="2018-08-09T10:52:31Z" finished-at="2018-08-09T10:52:42Z">
+      <class name="com.selflearn.automation.MultipleTestExecution">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selflearn.automation.MultipleTestExecution@39ba5a14]" name="setUp" is-config="true" duration-ms="1" started-at="2018-08-09T16:22:31Z" finished-at="2018-08-09T16:22:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test1 is executed via Thread and Thread Id is 11]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginApplication()[pri:0, instance:com.selflearn.automation.MultipleTestExecution@39ba5a14]" name="loginApplication" duration-ms="2" started-at="2018-08-09T16:22:31Z" finished-at="2018-08-09T16:22:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test2 is executed via Thread and Thread Id is 11]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selflearn.automation.MultipleTestExecution@39ba5a14]" name="setUp" is-config="true" duration-ms="0" started-at="2018-08-09T16:22:31Z" finished-at="2018-08-09T16:22:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test1 is executed via Thread and Thread Id is 11]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logoutApplication()[pri:0, instance:com.selflearn.automation.MultipleTestExecution@39ba5a14]" name="logoutApplication" duration-ms="2" started-at="2018-08-09T16:22:31Z" finished-at="2018-08-09T16:22:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test3 is executed via Thread and Thread Id is 11]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutApplication -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selflearn.automation.MultipleTestExecution@39ba5a14]" name="setUp" duration-ms="0" started-at="2018-08-09T16:22:31Z" finished-at="2018-08-09T16:22:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test1 is executed via Thread and Thread Id is 11]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selflearn.automation.MultipleTestExecution@39ba5a14]" name="setUp" is-config="true" duration-ms="0" started-at="2018-08-09T16:22:31Z" finished-at="2018-08-09T16:22:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test1 is executed via Thread and Thread Id is 11]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.selflearn.automation.MultipleTestExecution -->
+      <class name="com.selflearn.automation.ListenerDemoExample">
+        <test-method status="PASS" signature="GoogleTest()[pri:0, instance:com.selflearn.automation.ListenerDemoExample@7f690630]" name="GoogleTest" duration-ms="10293" started-at="2018-08-09T16:22:31Z" finished-at="2018-08-09T16:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleTest -->
+      </class> <!-- com.selflearn.automation.ListenerDemoExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

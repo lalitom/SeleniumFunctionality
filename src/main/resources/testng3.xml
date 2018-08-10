@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="methods">
+<listeners>
+<listener class-name="com.selflearn.automation.ListenerDemoExample"/>
+</listeners>
+<test name="Test">
+    <classes>
+    <!--   <class name="com.selflearn.automation.GoogleTest"/>
+      <class name="com.selflearn.automation.Demoformaven"/>
+      <class name="com.selflearn.automation.Phptravels"/>
+      <class name="com.selflearn.automation.TNGBasicFlow"/> -->
+      <class name="com.selflearn.automation.ListenerDemoExample"/>
+      <class name="com.selflearn.automation.MultipleTestExecution"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
